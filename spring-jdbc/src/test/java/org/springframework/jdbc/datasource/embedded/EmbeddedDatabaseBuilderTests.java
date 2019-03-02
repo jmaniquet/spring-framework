@@ -144,6 +144,21 @@ public class EmbeddedDatabaseBuilderTests {
 			}
 		});
 	}
+	
+	@Test
+	public void setTypeToFirebird() throws Exception {
+		doTwice(new Runnable() {
+
+			@Override
+			public void run() {
+				EmbeddedDatabase db = builder//
+				.setType(FIREBIRD)//
+				.addScripts("db-schema-firebird.sql", "db-test-data.sql")//
+				.build();
+				assertDatabaseCreatedAndShutdown(db);
+			}
+		});
+	}
 
 	@Test
 	public void setTypeToDerbyAndIgnoreFailedDrops() throws Exception {

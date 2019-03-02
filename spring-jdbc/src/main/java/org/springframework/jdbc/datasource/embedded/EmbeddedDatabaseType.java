@@ -32,6 +32,8 @@ public enum EmbeddedDatabaseType {
 	H2,
 
 	/** The <a href="http://db.apache.org/derby">Apache Derby</a> Embedded SQL Database. */
-	DERBY
-
+	DERBY,
+	
+	/** The <a href="http://www.firebirdsql.org">Firebird</a> Embedded SQL Database. */
+	FIREBIRD
 }

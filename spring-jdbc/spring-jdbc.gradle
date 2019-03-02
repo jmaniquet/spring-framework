@@ -10,6 +10,8 @@ dependencies {
 	optional("com.h2database:h2:1.4.197")
 	optional("org.apache.derby:derby:10.14.2.0")
 	optional("org.apache.derby:derbyclient:10.14.2.0")
+	optional("org.firebirdsql.jdbc:jaybird-jdk18:3.0.5")
+	optional("net.java.dev.jna:jna:5.2.0")
 	optional("org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}")
 	optional("org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}")
 }

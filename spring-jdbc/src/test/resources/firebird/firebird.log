@@ -1,0 +1,16 @@
+
+FX041535S	Thu Nov 16 16:26:52 2017
+	ib_util init failed, UDFs can't be used - looks like firebird misconfigured
+	
+	C:\dev\workspace-firebird-embedded\spring-jdbc-firebird-embedded\src\main\resources\fb\ib_util.dll library has not been found
+	C:\dev\workspace-firebird-embedded\spring-jdbc-firebird-embedded\src\main\resources\fb\ib_util.dll library has not been found
+	ib_util.dll library has not been found
+
+
+FX041535S	Thu Nov 16 16:28:55 2017
+	ib_util init failed, UDFs can't be used - looks like firebird misconfigured
+	
+	C:\dev\workspace-firebird-embedded\spring-jdbc-firebird-embedded\src\main\resources\fb\ib_util.dll library has not been found
+	C:\dev\workspace-firebird-embedded\spring-jdbc-firebird-embedded\src\main\resources\fb\ib_util.dll library has not been found
+	ib_util.dll library has not been found
+

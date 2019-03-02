@@ -49,6 +49,8 @@ final class EmbeddedDatabaseConfigurerFactory {
 					return H2EmbeddedDatabaseConfigurer.getInstance();
 				case DERBY:
 					return DerbyEmbeddedDatabaseConfigurer.getInstance();
+				case FIREBIRD:
+					return FirebirdEmbeddedDatabaseConfigurer.getInstance();
 				default:
 					throw new UnsupportedOperationException("Embedded database type [" + type + "] is not supported");
 			}
